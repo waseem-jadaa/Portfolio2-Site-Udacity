@@ -1,0 +1,21 @@
+.button, .projects__button {
+  display: inline-block;
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  color: #fff;
+  padding: 0.85rem 2.2rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 12px rgba(0,198,255,0.13);
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+.button:hover, .projects__button:hover,
+.button:focus, .projects__button:focus {
+  background: linear-gradient(90deg, #0072ff 0%, #00c6ff 100%);
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+}

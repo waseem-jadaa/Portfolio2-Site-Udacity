@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin responsive-font($min, $max) {
+	font-size: $min;
+	@media (min-width: $breakpoint-tablet) {
+		font-size: $max;
+	}
+}
+
+@mixin transition($props: all, $time: 0.3s, $ease: ease) {
+	transition: $props $time $ease;
+}

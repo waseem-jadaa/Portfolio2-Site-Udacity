@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 "/>
+    <title>Waseem Jadaa | Web Developer</title>
+    <link rel="stylesheet" href="../dist/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__nav">
+                <ul class="header__nav-links">
+                    <li><a href="#project">About</a></li>
+                    <li><a href="#skills">Services</a></li>
+                    <li><a href="#resume">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>   
+            </nav>
+        </header>
+        
+<main>
+    <section class="intro-banner">
+            <div class="intro-banner-content">
+                <img src="img/waseem.jpeg" alt="A professional headshot of Waseem Jadaa" class="intro-banner__photo" />
+                <div class="intro-banner-text">
+                    <h1>Waseem Web Development Portfolio</h1>
+                    <p>Software developer specializing in building full-stack applications using React.js and Java (Spring Boot).
+                        <br>
+                       Passionate about building intelligent and efficient systems to solve real-world challenges.
+                    </p>
+                </div>
+            </div>
+    </section>
+        
+    <section id="projects" class="projects">
+            <h2 class="projects__heading">Latest projects</h2>
+        <div class="projects__grid">
+            <article class="project-card">    
+               <img src="img/dms.png" alt="Screenshot of Project Alpha" class="project-card__image">
+               <div class="project-card__body">
+                    <h3>dms api</h3>
+                    <p>A RESTful backend API for a Delivery Management System (DMS), 
+                        esigned to efficiently manage and track orders and shipments from creation to final delivery.
+                    </p>
+               </div>
+            </article>
+            <article class="project-card">    
+               <img src="img/e-commerce.png" alt="Screenshot of Project Beta" class="project-card__image">
+               <div class="project-card__body">
+                    <h3>React App</h3>
+                    <p>A full-featured e-commerce web application built with React.js to create a fast and interactive user interface. 
+                        The application implements core e-commerce functionalities including product browsing, detailed product views, and a dynamic shopping cart. 
+                        The project leverages modern React concepts like state management and routing to provide a seamless single-page application (SPA) experience.
+                    </p>
+               </div>
+            </article>
+            <article class="project-card">    
+               <img src="img/FursaPal.png" alt="Screenshot of Project FursaPal" class="project-card__image">
+               <div class="project-card__body">
+                    <h3>FursaPal</h3>
+                    <p>FursaPal is a web-based platform designed to connect skilled Palestinian professionals with job opportunities. It aims to streamline the employment process using artificial intelligence.
+                        It’s also a multi-user system (job seekers, employers)
+                        Mission:
+                        To empower local talent and promote economic resilience in Palestine.
+                    </p>   
+                </div>
+            </article>
+        </div>
+    <a href="https://github.com/waseem-jadaa" class="projects__button" target="_blank" rel="noopener">View all projects</a>
+    </section>
+</main>
+
+        <footer class="footer">
+            <p style="text-align:center">&copy; Waseem Salah Jameel Jadaa</p>
+        </footer>
+
+                <script>
+                        const header = document.querySelector('.header');
+                        window.addEventListener('scroll', () => {
+                            if (window.scrollY > 50) {
+                                header.classList.add('header--scrolled');
+                            } else {
+                                header.classList.remove('header--scrolled');
+                            }
+                        });
+                </script>
+        
+    </body>
+</html>    
