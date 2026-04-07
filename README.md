@@ -23,7 +23,7 @@ This is a static portfolio website built with HTML and SCSS. It features section
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio-site.git
+   git clone [https://github.com/yourusername/portfolio-site.git](https://github.com/udacity/cd14106-project-starter-code)
    ```
 
 2. Navigate to the project directory:
